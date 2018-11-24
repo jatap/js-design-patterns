@@ -1,4 +1,21 @@
-export const Server = {
+type TServer = {
+  user: string,
+  group: string,
+  start(): string,
+  stop(): string,
+  status(): string
+};
+
+type TPrototype = {
+  user: string,
+  group: string,
+  start(): string,
+  stop(): string,
+  status(): string,
+  name: string
+};
+
+export const Server: TServer = {
   user: "root",
   group: "root",
 
@@ -15,5 +32,9 @@ export const Server = {
   }
 };
 
-export const Nginx = Object.create(Server, { name: { value: "nginx" } });
-export const Apache = Object.create(Server, { name: { value: "apache" } });
+export const Nginx: TPrototype = Object.create(Server, {
+  name: { value: "nginx" }
+});
+export const Apache: TPrototype = Object.create(Server, {
+  name: { value: "apache" }
+});
