@@ -102,10 +102,6 @@ describe("Prototype", () => {
       it("shows server name", () => {
         expect(apache.name).toBe("apache");
       });
-
-      it("xxx", () => {
-        expect(apache).toContainAnyKeys(["user"]);
-      });
     });
   });
 });
