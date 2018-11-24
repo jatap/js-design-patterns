@@ -1,1 +1,3 @@
-console.log("Hello World!");
+const pkg = require("../package.json");
+
+console.log(pkg.description);

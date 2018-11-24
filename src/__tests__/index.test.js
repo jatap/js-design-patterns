@@ -14,8 +14,8 @@ describe("main", () => {
     );
   });
 
-  test("prints stdout", () => {
-    const result = "Hello World!";
+  test("prints repo description", () => {
+    const result = "JavaScript Design Patterns";
 
     expect(execution.stdout.toString().trim()).toBe(result);
   });
