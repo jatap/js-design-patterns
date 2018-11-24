@@ -11,13 +11,13 @@ export class NewCalculator {
 }
 
 export class CalculatorAdapter {
-  calculator: OldCalculator;
+  calculator: NewCalculator;
 
   constructor() {
-    this.calculator = new OldCalculator();
+    this.calculator = new NewCalculator();
   }
 
   add(first: number, second: number) {
-    return this.calculator.add(first, second);
+    return this.calculator.addition(first, second);
   }
 }
