@@ -15,6 +15,7 @@ flow-typed/
 *.sublime-*
 !.vscode
 .tern-port
+.vscode/
 
 # Other
 .tmp
