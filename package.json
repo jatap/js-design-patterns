@@ -1,7 +1,7 @@
 {
-  "name": "design-patterns",
+  "name": "js-design-patterns",
   "version": "1.0.0",
-  "description": "design-patterns",
+  "description": "JavaScript Design Patterns",
   "author": "Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>",
   "license": "ISC",
   "main": "src/index.js",
