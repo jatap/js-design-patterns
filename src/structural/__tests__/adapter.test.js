@@ -2,7 +2,7 @@ import { OldCalculator, NewCalculator, CalculatorAdapter } from "../adapter";
 
 describe("Adapter", () => {
   describe("OldCalculator", () => {
-    let oldCalculator;
+    let oldCalculator: OldCalculator;
 
     beforeAll(() => {
       oldCalculator = new OldCalculator();
@@ -14,7 +14,7 @@ describe("Adapter", () => {
   });
 
   describe("NewCalculator", () => {
-    let newCalculator;
+    let newCalculator: NewCalculator;
 
     beforeAll(() => {
       newCalculator = new NewCalculator();
@@ -26,7 +26,7 @@ describe("Adapter", () => {
   });
 
   describe("CalculatorAdapter", () => {
-    let calculatorAdapter;
+    let calculatorAdapter: CalculatorAdapter;
 
     beforeAll(() => {
       calculatorAdapter = new CalculatorAdapter();
