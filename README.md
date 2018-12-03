@@ -91,6 +91,9 @@ A tree structure of simple and composite objects
 
 Add responsibilities to objects dynamically
 
+- [Example](src/structural/decorator.js)
+- [Test](src/structural/__tests__/decorator.test.js)
+
 ### Facade
 
 A single class that represents an entire subsystem
