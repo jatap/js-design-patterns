@@ -102,6 +102,9 @@ A single class that represents an entire subsystem
 
 A fine-grained instance used for efficient sharing
 
+- [Example](src/structural/flyweight.js)
+- [Test](src/structural/__tests__/flyweight.test.js)
+
 ### Private Class Data
 
 Restricts accessor/mutator access
