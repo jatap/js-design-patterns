@@ -35,6 +35,9 @@
     "flow:check": "flow check",
     "flow:deps": "flow-typed install"
   },
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",

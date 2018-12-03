@@ -50,6 +50,9 @@ Separates object construction from its representation
 
 Creates an instance of several derived classes
 
+- [Example](src/creational/factory.js)
+- [Test](src/creational/__tests__/factory.test.js)
+
 ### Object Pool
 
 Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
