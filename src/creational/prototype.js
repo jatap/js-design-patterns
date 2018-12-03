@@ -1,4 +1,4 @@
-type TServer = {
+export type TServer = {
   user: string,
   group: string,
   start(): string,
@@ -6,7 +6,7 @@ type TServer = {
   status(): string
 };
 
-type TPrototype = {
+export type TPrototype = {
   user: string,
   group: string,
   start(): string,

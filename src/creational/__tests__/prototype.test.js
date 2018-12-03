@@ -1,7 +1,8 @@
 import { Server, Nginx, Apache } from "../prototype";
+import type { TServer, TPrototype } from "../prototype";
 
 describe("Prototype", () => {
-  let server;
+  let server: TServer;
 
   beforeAll(() => {
     server = Server;
@@ -70,7 +71,7 @@ describe("Prototype", () => {
   });
 
   describe("Nginx", () => {
-    let nginx;
+    let nginx: TPrototype;
 
     beforeAll(() => {
       nginx = Nginx;
@@ -88,7 +89,7 @@ describe("Prototype", () => {
   });
 
   describe("Apache", () => {
-    let apache;
+    let apache: TPrototype;
 
     beforeAll(() => {
       apache = Apache;
