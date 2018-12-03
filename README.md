@@ -102,6 +102,9 @@ Restricts accessor/mutator access
 
 ### Proxy
 
+- [Example](src/structural/proxy.js)
+- [Test](src/structural/__tests__/proxy.test.js)
+
 An object representing another object
 
 ## Behavioral
