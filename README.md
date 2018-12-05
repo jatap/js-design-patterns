@@ -130,6 +130,9 @@ These design patterns are all about Class's objects communication. Behavioral pa
 
 A way of passing a request between a chain of objects
 
+- [Example](src/behavioral/chain-of-responsibility.js)
+- [Test](src/behavioral/__tests__/chain-of-responsibility.test.js)
+
 ### Command
 
 Encapsulate a command request as an object
