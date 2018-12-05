@@ -87,6 +87,9 @@ Separates an object’s interface from its implementation
 
 A tree structure of simple and composite objects
 
+- [Example](src/structural/composite.js)
+- [Test](src/structural/__tests__/composite.test.js)
+
 ### Decorator
 
 Add responsibilities to objects dynamically
