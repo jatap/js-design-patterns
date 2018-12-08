@@ -24,17 +24,17 @@ interface IMiddleware {
 }
 
 class BaseMiddleware implements IMiddleware {
-  _nextMiddleware: TMiddleware;
+  #nextMiddleware: TMiddleware;
 
   setNext(middleware: TMiddleware): TMiddleware {
-    this._nextMiddleware = middleware;
+    this.#nextMiddleware = middleware;
 
     return middleware;
   }
 
   handle(request: TRequest, stop: string | void): TMiddleware | TRequest {
-    if (this._nextMiddleware) {
-      return this._nextMiddleware.handle(request, stop);
+    if (this.#nextMiddleware) {
+      return this.#nextMiddleware.handle(request, stop);
     }
 
     return request;
